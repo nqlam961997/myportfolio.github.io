@@ -318,7 +318,7 @@ header .header-nav .navbar-box .nav-items .nav-item .active-link {
 }
 
 .intro-section .canvas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img/galaxy.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/galaxy.jpg);
   background-size: cover;
   background-position: center;
   display: block;
@@ -1030,19 +1030,19 @@ header .header-nav .navbar-box .nav-items .nav-item .active-link {
 }
 
 .portfolio-section .portfolio-wrapper .swiper-container .swiper-slide .port-img1 {
-  background: url(../../assets/img/hinhWebFiverr.png) no-repeat center;
+  background: url(/assets/img/hinhWebFiverr.png) no-repeat center;
   background-size: cover;
   object-fit: cover;
 }
 
 .portfolio-section .portfolio-wrapper .swiper-container .swiper-slide .port-img2 {
-  background: url(../../assets/img/hinhWebPhim.png) no-repeat center;
+  background: url(/assets/img/hinhWebPhim.png) no-repeat center;
   background-size: cover;
   object-fit: cover;
 }
 
 .portfolio-section .portfolio-wrapper .swiper-container .swiper-slide .port-img3 {
-  background: url(../../assets/img/myportfolio.png) no-repeat center;
+  background: url(/assets/img/myportfolio.png) no-repeat center;
   background-size: cover;
   object-fit: cover;
 }
