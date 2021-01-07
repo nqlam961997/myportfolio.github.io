@@ -101,6 +101,11 @@ header .header-nav .navbar-box .nav-items .nav-item .nav-link:hover {
   color: deeppink;
 }
 
+header .header-nav .navbar-box .nav-items .nav-item .link {
+  transition: all .3s ease-in-out;
+  color: deeppink;
+}
+
 @keyframes name {
   0%,
   100% {
