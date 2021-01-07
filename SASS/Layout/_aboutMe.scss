@@ -1,10 +1,12 @@
 .about-me-section {
     background: #f1efef;
     min-height: 100vh;
+    padding: 20px 0;
     h1 {
         font-size: 3.3rem;
         text-align: center;
-        padding: 70px 0 40px;
+        // padding: 70px 0 40px;
+        margin: 40px 0;
         color: rgba(0, 49, 52, 0.9);
         font-weight: 500;
     }
@@ -18,14 +20,6 @@
             height: 100%;
             width: 35%;
             position: relative;
-            .port-overlay{
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 275px;
-                height: 400px;
-                // background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(225,255,255,0.1));
-            }
             img{
                 // overflow: hidden;
                 width: 275px;
@@ -35,6 +29,7 @@
                 box-shadow: 0 0px 5px rgba(0, 49, 52, 0.12), 0 0px 16px rgba(0, 49, 52, 0.175),
                     0 0px 71px rgba(0, 49, 52, 0.3);
                 border-radius: 10px;
+                display: block;
             }
         }
         .about-me-info-col {
@@ -109,20 +104,22 @@
     }
 }
 
-// .part-about {
-//     padding: 50px 0;
-//     position: relative;
-//     .s12 {
-//         width: 50%;
-//         margin: 0 auto;
-//         position: relative;
-//     }
-// }
+@media screen and (max-width: 1281px){
+    .about-me-section{
+        min-height: 65vh;
+    }
+}
 
 @include responsive("large") {
     .about-me-section {
+        // padding: 30px 0;
+        min-height: 175vh;
         h1{
             padding:45px 0 90px;
+        }
+        .container{
+            width: 95%;
+            height: 100%;
         }
         .about-me-res {
             display: flex;
@@ -131,13 +128,16 @@
             text-align: center;
             width: 100%;
             height: 600px;
+            position: relative;
             .about-me-figure-col {
                 width: 100%;
-                margin-bottom: 10px;
+                margin: 10px 0;
+                display: block;
             }
             .about-me-info-col {
                 padding-top: 25px;
                 width: 100%;
+                display: block;
                 .info{
                     ul{
                         .social{
@@ -153,8 +153,10 @@
     }
 }
 
-// @include responsive('medium'){
-//     .about-me-section {
-//        min-height: 100vh;
-//     }
-// }
+@media screen and (max-width: 375px){
+    .about-me-section{
+        h1{
+            padding: 10px 0px 115px;
+        }
+    }
+}
